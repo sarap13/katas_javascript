@@ -21,8 +21,12 @@ const {
 } = require("./8-kyu");
 
 /**
+<<<<<<< HEAD
  * Función que añade la palabra 'Helo World' al final de la la frase
  * que se le pase como argumento
+=======
+ * Función que devuelve la palabra Hello World
+>>>>>>> 2f452f089c50341c7f524e3c7d605024534464e2
  */
 it("getHelloWorld", () => {
   expect(getHelloWorld()).toEqual("Hello World");
